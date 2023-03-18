@@ -3,6 +3,22 @@
 No install. No server. ¯\\\_(ツ)\_/¯ https://pdf-editor.now.sh
 ![It just works!](https://i.imgur.com/m3weLXQ.gif)
 
+
+## Run locally
+
+```sh
+# install dependencies
+yarn install
+# build assets
+yarn build
+# run on localhost:5000
+yarn start
+```
+
+## Docker setup
+
+Run `make build` to create the docker image. Run `make run` to start the container. For reference, refere to [Makefile]
+
 ## How to use pdf-editor?
 
 1. Click `Choose PDF` to upload a `.pdf` file.
